@@ -1,0 +1,118 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+nav{
+    display: flex;
+    background: rgb(5,4,73);
+    background: linear-gradient(90deg, rgba(5,4,73,1) 0%, rgba(9,9,121,1) 67%, rgba(0,212,255,1) 100%);
+align-items: center;
+color: white;
+text-transform: capitalize;
+justify-content: space-between;
+
+}
+
+nav>img{
+    height: 110px;
+    width: 110px;
+    margin-left: 50px;
+    margin-top: 5px;
+    
+
+}
+
+nav div{
+    line-height: 40px;
+    gap: 100px;
+       
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 15px;
+    padding: 0 100px;
+
+}
+ 
+
+nav div> :nth-child(1){
+    background-color: rgb(245, 245, 251);
+    position: relative;
+    overflow: hidden;
+    color: black;
+
+}
+nav div>:nth-child(1)::before{
+    content: "";
+    background-color: rgb(9, 9, 121);
+    height: 70px;
+    left: -20px;
+    transform: rotate(-30deg);
+    position: absolute;
+    width: 50px;
+}
+ section{
+     background-image: url(https://images.pexels.com/photos/36717/amazing-animal-beautiful-beautifull.jpg?cs=srgb&dl=pexels-pixabay-36717.jpg&fm=jpg);
+     background-size: cover;
+     background-repeat:no-repeat;
+     height: 100vh;
+     width: 100%;
+
+ }
+
+ .first{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     padding-top: 100px;
+ }
+
+ .first h2{
+     color: wheat;
+     font-size: 4rem;
+
+ }
+
+ .first h3{
+     color: aqua;
+     font-size: 4rem;
+     font-weight: 800;
+
+ }
+
+ .first button{
+     background-color: orange;
+     border: 0;
+     color: white;
+     font-size: 1rem;
+     padding: 10px 30px;
+     border-radius: 100px;
+     font-weight: 300;
+     transition: all 0,5 ease;
+ }
+
+ .first button:hover{
+     background-color: black;
+ }
+
+ .blur{
+     width: 100vw;
+     height: 100vh;
+     filter: blur(10px);
+     background-color: white;
+ }
+
+.h3{
+    color: aqua;
+}
+ 
+ 
+  
+    
+
+
+ 
+
